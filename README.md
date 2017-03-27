@@ -74,6 +74,7 @@ unitFontSize | CGFloat | The font size of the unit text | [0,∞)
 unitString | NSString | The string that represents the units, usually % |
 fontColor | UIColor | The color of the value and unit text |
 decimalPlaces | NSInteger | Number of decimal places of the value | [0,∞)
+clockwise | BOOL | Set clockwise or anti-clockwise |
 progressRotationAngle | CGFloat | Progress bar rotation (Clockewise)| [0,100]
 progressAngle | CGFloat | Set a partial angle for the progress bar | [0,100]
 progressLineWidth | CGFloat | The width of the progress bar (user space units)  | [0,∞)

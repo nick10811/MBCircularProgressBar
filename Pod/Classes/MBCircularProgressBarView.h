@@ -76,6 +76,11 @@ IB_DESIGNABLE
 @property (nonatomic,strong) IBInspectable UIColor   *fontColor;
 
 /**
+ * Set clockwise or anti-clockwise
+ */
+@property (nonatomic, assign) IBInspectable BOOL clockwise;
+
+/**
  * Progress bar rotation (Clockewise)	[0,100] 
  */
 @property (nonatomic,assign) IBInspectable CGFloat   progressRotationAngle;

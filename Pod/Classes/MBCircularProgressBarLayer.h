@@ -15,6 +15,11 @@
 @interface MBCircularProgressBarLayer : CALayer
 
 /**
+ * Set clockwise or anti-clockwise
+ */
+@property (nonatomic,assign) BOOL clockwise;
+
+/**
  * Set a partial angle for the progress bar	[0,100]
  */
 @property (nonatomic,assign) CGFloat  progressAngle;

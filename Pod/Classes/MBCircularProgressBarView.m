@@ -44,6 +44,7 @@
     [self setUnitString:@"%"];
     [self setValue:0.f];
     [self setMaxValue:100.f];
+    [self setClockwise:YES];
     [self setProgressRotationAngle:0.f];
     [self setProgressStrokeColor:[UIColor orangeColor]];
     [self setProgressColor:[UIColor orangeColor]];
@@ -181,6 +182,14 @@
 
 -(UIColor*)emptyLineStrokeColor{
     return self.progressLayer.emptyLineStrokeColor;
+}
+
+-(void)setClockwise:(BOOL)clockwise{
+    self.progressLayer.clockwise = clockwise;
+}
+
+-(BOOL)clockwise{
+    return self.progressLayer.clockwise;
 }
 
 -(void)setProgressAngle:(CGFloat)progressAngle{
